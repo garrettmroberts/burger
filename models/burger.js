@@ -15,5 +15,3 @@ const burger = {
 }
 
 module.exports = burger;
-
-burger.updateBurger(3);

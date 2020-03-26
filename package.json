@@ -1,0 +1,35 @@
+{
+  "name": "burger",
+  "version": "0.1.0",
+  "description": "It makes burgers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "watch": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettmroberts/burger.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "handlebars",
+    "mySQL"
+  ],
+  "author": "Garrett Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettmroberts/burger/issues"
+  },
+  "homepage": "https://github.com/garrettmroberts/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

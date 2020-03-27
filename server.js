@@ -5,9 +5,6 @@ var PORT = process.env.PORT || 8080;
 
 var app = express();
 
-// Picks where static files are retrieved from
-app.use(express.static("public"));
-
 // Parse application body
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

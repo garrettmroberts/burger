@@ -3,9 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet", type="text/css", href="/assets/css/main.css">
   <title>Eat Da Burger</title>
 </head>
 <body>
+  <div class="container">
+    <img src="/assets/images/burger.svg" />
+    <h1>Eat Da Burger</h1>
     {{{ body }}}
+    <form class="addBurger">
+      <label for="burger-name">Add a burger:</label>
+      <input type="text" id="burger-name">
+      <button type="submit">Enter</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="/assets/js/index.js"></script>
 </body>
 </html>
